@@ -13,13 +13,17 @@ Analysing Data from Pyber rides to uncover trends based on the types of city: Ru
 
 V. Isualize has tasked us with analyzing the relationship between city types and how Pyber usage differs amongst the city types. First, we had to create and provide a Dataframe for our analysis, and then make a line plot illustrating the differences.
 
-Purpose of this analysis
-
 ## Results
 
-Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
+How does the following vary by city type:
 
-There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. (7 pt)
+- total rides
+- total drivers
+- total fares
+-  avg fare per ride
+-  avgfare per driver
+
+Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
 
 ## Summary
 
