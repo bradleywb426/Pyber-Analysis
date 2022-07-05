@@ -11,6 +11,8 @@ Analysing Data from Pyber rides to uncover trends based on the types of city: Ru
 
 ## Overview
 
+V. Isualize has tasked us with analyzing the relationship between city types and how Pyber usage differs amongst the city types. First, we had to create and provide a Dataframe for our analysis, and then make a line plot illustrating the differences.
+
 Purpose of this analysis
 
 ## Results
@@ -26,10 +28,6 @@ Based on the results, provide three business recommendations to the CEO for addr
 There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
 
 ----------------------
-
-## Overview
-
-The Colorado Board of Elections has requested help in auditing the election results for a district in their state, and provided us with the election data for this district. The audit needed to provide the candidates, the total votes each received, and the winner. The Board of Elections then further asked to provide analysis on voter turnout by county.
 
 ## Results
 
