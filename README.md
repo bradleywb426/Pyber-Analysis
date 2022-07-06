@@ -11,13 +11,36 @@ Analysing Data from Pyber rides to uncover trends based on the types of city: Ru
 
 ## Overview
 
-Purpose of this analysis
+V. Isualize has tasked us with analyzing the relationship between city types and how Pyber usage differs amongst the city types. First, we had to create and provide a Dataframe for our analysis, and then make a line plot illustrating the differences.
 
 ## Results
 
-Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
+PUT IMAGE OF DATA FRAME
 
-There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. (7 pt)
+How does the following vary by city type:
+
+- total rides
+  - U: 1625, 13xRural
+  - S:  625, 5xRural
+  - R:  125
+- total drivers
+  - U: 2405
+  - S:  490
+  - R:   78
+- total fares
+  - U: $39,854.38
+  - S: $19,356.33
+  - R: $  4327.93
+-  avg fare per ride
+  - U: $24.53
+  - S: $30.97
+  - R: $34.62
+-  avgfare per driver
+  - U: $16.57
+  - S: $39.50
+  - R: $55.49
+
+Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
 
 ## Summary
 
@@ -26,10 +49,6 @@ Based on the results, provide three business recommendations to the CEO for addr
 There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
 
 ----------------------
-
-## Overview
-
-The Colorado Board of Elections has requested help in auditing the election results for a district in their state, and provided us with the election data for this district. The audit needed to provide the candidates, the total votes each received, and the winner. The Board of Elections then further asked to provide analysis on voter turnout by county.
 
 ## Results
 
