@@ -15,13 +15,30 @@ V. Isualize has tasked us with analyzing the relationship between city types and
 
 ## Results
 
+PUT IMAGE OF DATA FRAME
+
 How does the following vary by city type:
 
 - total rides
+  - U: 1625, 13xRural
+  - S:  625, 5xRural
+  - R:  125
 - total drivers
+  - U: 2405
+  - S:  490
+  - R:   78
 - total fares
+  - U: $39,854.38
+  - S: $19,356.33
+  - R: $  4327.93
 -  avg fare per ride
+  - U: $24.53
+  - S: $30.97
+  - R: $34.62
 -  avgfare per driver
+  - U: $16.57
+  - S: $39.50
+  - R: $55.49
 
 Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
 
