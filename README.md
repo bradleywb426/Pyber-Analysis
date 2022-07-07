@@ -43,26 +43,14 @@ Urban-type cities have $24.53 average fare per ride, which is the lowest average
 
 ### Average Fare per Driver
 
-Urban cities have an average fare per driver of $16.57, which is the lowest average fare per driver.
-
-  - U: $16.57
-  - S: $39.50
-  - R: $55.49
+Urban cities have an average fare per driver of $16.57, which is the lowest average fare per driver. Suburban-type cities have an average fare of $39.50 per driver, which is about 2.38 times the Urban average. Rural cities have $55.49 average fare per driver, which is about 1.40 times the Suburban average and 3.35 times the Urban average. Therefore, Rural-type cities have the highest average fare per driver.
 
 ## Summary
 
-Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
+Based on the above results, some business recommendations can be made to address disparites amongst city types:
 
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
+- To raise total fares for Rural cities, riders will need to be further incentivised to use Pyber. Therefore, there will likely need to be both a decrease in ride fares and an increase in the number of drivers. A more affordable and reliable transportation service will draw in more users and increase profits.
 
-----------------------
+- Suburban cities require a similar change as Rural cities, though to a lesser degree. They will likely require only either a slight decrease in ride fares or a small increase in drivers. 
 
-## Summary
-
-This Python script delivered quick and accurate results of this Colorado District election, and is capable of delivering these results in a presentable manner in a seperate file. However, this is not the only election this script can work for, as it would only need some general modifications to make this script more applicable to any election. 
-
-- An easy place to start is creating functions for this script, as several parts of the code are very similar and could be re-written to be a function that takes a variable or two and produces the desired results. 
-
-  - For example, a function could be created to find the vote counts and vote percentages for candidates, counties, and more.
-   
-- Another area of improvement could be streamlining the printing of all results into one block of code at the end, instead of periodic updates throughout the script.
+- Urban cities would most likely benefit from increased incentives to using Pyber, as there are currently more drivers than riders. Given the already low average far per ride, these incentives will likely have to come in some form other than a decrease in ride shares.
