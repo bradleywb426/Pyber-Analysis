@@ -1,6 +1,6 @@
 # An Analysis of Pyber Ride Data
 
-Analysing Data from Pyber rides to uncover trends based on the types of city: Rural, Suburban, and Urban
+Analysing Data from Pyber rides to uncover trends based on the types of city: Rural, Suburban, and Urban.
 
 ## Resources
 
