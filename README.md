@@ -15,7 +15,7 @@ V. Isualize has tasked us with analyzing the relationship between city types and
 
 ## Results
 
-The first aspect of our Pyber Analysis involved creating a DataFrame of Pyber data (Total Rides, Total Drivers, Total Fares, Average Fare per Ride, Average Fare per Driver) grouped by different city types (Rural, Suburban, and Urban). The DataFrame is listed below, and contains the data discussed below.
+The first aspect of our Pyber Analysis involved creating a DataFrame of Pyber data (Total Rides, Total Drivers, Total Fares, Average Fare per Ride, Average Fare per Driver) that was grouped by different city types (Rural, Suburban, and Urban). The DataFrame is listed below, and contains the data discussed below.
 
 <img src="https://github.com/bradleywb426/Pyber-Analysis/blob/main/analysis/challenge_df.png" width=500>
 
