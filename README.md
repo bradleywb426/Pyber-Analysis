@@ -15,32 +15,39 @@ V. Isualize has tasked us with analyzing the relationship between city types and
 
 ## Results
 
-PUT IMAGE OF DATA FRAME
+The first aspect of our Pyber Analysis involved creating a DataFrame of Pyber data (Total Rides, Total Drivers, Total Fares, Average Fare per Ride, Average Fare per Driver) grouped by different city types (Rural, Suburban, and Urban). The DataFrame is listed below, and contains the data discussed below.
 
-How does the following vary by city type:
+<img src="https://github.com/bradleywb426/Pyber-Analysis/blob/main/analysis/challenge_df.png" width=500>
 
-- total rides
-  - U: 1625, 13xRural
-  - S:  625, 5xRural
-  - R:  125
-- total drivers
-  - U: 2405
-  - S:  490
-  - R:   78
-- total fares
-  - U: $39,854.38
-  - S: $19,356.33
-  - R: $  4327.93
--  avg fare per ride
-  - U: $24.53
-  - S: $30.97
-  - R: $34.62
--  avgfare per driver
+### Total Rides
+
+  There are a total of 125 rides in Rural-type cities, which is the smallest total number of rides of all city types. Suburban cities have 625 rides total, which is 5 times as many rides as in Rural-type cities. Urban-type cities have a total of 1,625 rides, which is 13 times as many rides in Rural-type cities and 2.6 times as many rides as Suburban-type cities. Therefore, Urban-type cities have the most total rides. 
+
+### Total Drivers
+
+  In Rural-type cities, there are a total of 78 drivers, which is the smallest number of drivers of all city types. For Suburban-type cities, there are a total of 490 drivers, which is about 6.3 times as many drivers as Rural-type cities. Urban cities have a a total of 2,405 drivers, which is about 30.8 times as many drivers as Rural-type cities and about 4.9 times as many drivers as Suburban-type cities. Therefore, Urban-type cities have the largest total number of drivers.
+
+### Total Fares
+
+  Rural cities have the lowest total fares, with a total of $4,327.93 in total fares. In Suburban-type cities, the total fare is $19,356.33, which is around 4.5 times greater than total fares in Rural cities. Urban-type cities have a total of $39,854.38 in fares, which is about 2.1 times the total fares for Suburban cities and about 9.2 times the total fares of Rural cities. Therefore, Urban-type cities have the largest total fares.
+
+### Total Fares (Monthly)
+
+The total fares for each city type can also be observed as monthly totals for each city type till the end of April, as seen in the line plot below. From the plot, it can be seen that total fares in Urban cities are always the greatest, total fares in Suburban cities are always less than Urban and greater than Rural, and Rural cities always have the smallest monthly totals. It can also be seen that the monthly total fares by city type exist in distinct bands, meaning that there is no overlap between the minimums and maximums of monthly totals by city type. Rural cities appear to have relatively consistent total monthly fares, while Suburban cities appear to have maximums and minimums over the course of around 4 weeks. Urban cities appear to dip in the colder winter months, and slowly increase as it approaches summer.
+
+<img src="https://github.com/bradleywb426/Pyber-Analysis/blob/main/analysis/Pyber_fare_summary.png" width=700>
+
+### Average Fare per Ride
+
+Urban-type cities have $24.53 average fare per ride, which is the lowest average fare per ride out of all city types. For Suburban cities, the average fare per ride is $30.97, which is about 1.26 times the average fare for Urban cities. Rural cities have an average fare of $34.62 per ride, which is about 1.41 times the average fare per ride in Urban cities and about 1.12 times the average fare per ride for Suburban cities. Therefore, Rural-type cities have the greatest average fare per ride out of all city types.
+
+### Average Fare per Driver
+
+Urban cities have an average fare per driver of $16.57, which is the lowest average fare per driver.
+
   - U: $16.57
   - S: $39.50
   - R: $55.49
-
-Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
 
 ## Summary
 
@@ -49,37 +56,6 @@ Based on the results, provide three business recommendations to the CEO for addr
 There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
 
 ----------------------
-
-## Results
-
-Based on the analysis of the election audit:
-
-- A ***total of 369,711 votes*** were cast in this district for this congressional election.
-  - This was determined by simply adding each new vote to a total vote variable
-  - <img src=https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_2.png width="300">
-
-- The breakdown of votes by county was:
-  - ***Jefferson county*** casted ***38,855 votes***, which was ***10.5% of the total votes***.
-  - ***Denver county*** casted ***306,055 votes***, which was ***82.8% of the total votes***.
-  - ***Arapahoe county*** casted ***24,801 votes***, which was ***6.7% of the total votes***.
-   - The breakdown of votes by county was determined using a nested for loop that would go through every row of data and add a county to a list of counties if it was not already present, and then add any votes cast in said county to a county total
-   - The percentage was then calculated by dividing the votes per county by the total votes for the election
-   - <img src=https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_1.png width="400">
-
-- ***Denver county*** had the ***largest voter turnout*** out of all counties, with 306,055 total votes.
-  - The largest voter turnout was determined by checking the turnout with a given county against largest turnout variables, and updated the variable to match the checked county if the checked county has a larger turnout
-  - <img src=https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_3.png width="400">
-
-- The breakdown of votes by candidates was:
-  - ***Charles Casper Stockham*** won ***85,213 votes***, which was ***23.0% of the total votes***.
-  - ***Diana DeGette*** won ***272,892 votes***, which was ***73.8% of the total votes***.
-  - ***Raymon Anthony Doane*** won ***11,606 votes***, which was ***3.1% of the total votes***.
-  - The breakdown of votes by candidates was determined using a nested for loop that went through every row of data and would add any unique candidate names to a list, and then add any votes cast for the candidate to their respective totals; while the percentages were calculated by dividing each candidates votes by the total votes
-  - <img src=https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_4.png width="450">
-
-- The ***winner of the elections was Diana DeGette***, who received ***272,892 votes*** or ***73.8% of the total votes***.
-  - The winner of the election was determined by checking a candidates vote count and percentage against the current winning count and percentage, and updating the winning stats if a candidate has a higher vote count and percentage
-  - <img src=https://github.com/bradleywb426/election-analysis/blob/main/Resources/code_5.png width="600">
 
 ## Summary
 
