@@ -17,7 +17,9 @@ V. Isualize has tasked us with analyzing the relationship between city types and
 
 The first aspect of our Pyber Analysis involved creating a DataFrame of Pyber data (Total Rides, Total Drivers, Total Fares, Average Fare per Ride, Average Fare per Driver) that was grouped by different city types (Rural, Suburban, and Urban). The DataFrame is listed below, and contains the data discussed below.
 
-<img src="https://github.com/bradleywb426/Pyber-Analysis/blob/main/analysis/challenge_df.png" width=500>
+<p align="center">
+<img src="https://github.com/bradleywb426/Pyber-Analysis/blob/main/analysis/challenge_df.png" alt="Results Dataframe" width=500>
+</p>
 
 ### Total Rides
 
@@ -35,7 +37,9 @@ The first aspect of our Pyber Analysis involved creating a DataFrame of Pyber da
 
 The total fares for each city type can also be observed as monthly totals for each city type till the end of April, as seen in the line plot below. From the plot, it can be seen that total fares in Urban cities are always the greatest, total fares in Suburban cities are always less than Urban and greater than Rural, and Rural cities always have the smallest monthly totals. It can also be seen that the monthly total fares by city type exist in distinct bands, meaning that there is no overlap between the minimums and maximums of monthly totals by city type. Rural cities appear to have relatively consistent total monthly fares, while Suburban cities appear to have maximums and minimums over the course of around 4 weeks. Urban cities appear to dip in the colder winter months, and slowly increase as it approaches summer.
 
-<img src="https://github.com/bradleywb426/Pyber-Analysis/blob/main/analysis/Pyber_fare_summary.png" width=700>
+<p align="center">
+<img src="https://github.com/bradleywb426/Pyber-Analysis/blob/main/analysis/Pyber_fare_summary.png" alt="Line Chart of Total Fare by City Type" width=700>
+</p>
 
 ### Average Fare per Ride
 
